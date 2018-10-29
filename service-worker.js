@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/live-matches-slider/precache-manifest.798131d1a325d74538e8a19b6b85786e.js"
+  "/live-matches-slider/precache-manifest.25906cda8deb4cc5c56d90c7d3739d04.js"
 );
 
 workbox.clientsClaim();
