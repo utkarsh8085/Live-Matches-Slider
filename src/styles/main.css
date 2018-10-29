@@ -1,0 +1,193 @@
+body {
+	background: #333;
+	font-family: 'RobotoRegular','Roboto','Droid Sans','Helvetica Neue','Segoe UI','Segoe','Open Sans','Helvetica','Arial',sans serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0
+}
+#container {
+	background-image: radial-gradient(#2f8e2c,#2e7423);
+	background-color: #2e7423;
+	text-align: center;
+}
+header {
+	width: 900px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+nav {
+	background: #222;
+}
+nav ul {
+	width: 900px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+nav ul li {
+	margin: 0;
+	padding: 12px 0 12px 4px;
+}
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+#logo {
+	height: 33px;
+	background: url(../images/unibet-logo.png) no-repeat;
+	background-size: 200px 33px;
+	text-indent: -999em;
+}
+#content {
+	width: 900px;
+	text-align: left;
+	margin: 16px auto;
+}
+article {
+	padding: 8px 16px 16px;
+	background: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+}
+article h1 {
+	font-size: 22px;
+}
+article .preamble {
+	font-weight: bold;
+}
+article aside {
+	float: right;
+	width: 220px;
+	border-left: solid 1px #ccc;
+	margin-left: 8px;
+	padding: 0 0 8px 16px;
+}
+article aside h2 {
+	font-size: 15px;
+	margin: 4px 0;
+}
+article aside img {
+	width: 220px;
+}
+footer {
+	background: #333;
+	color: #999;
+}
+footer .inner {
+	width: 900px;
+	text-align: left;
+	margin: 0 auto;
+}
+footer .inner p {
+	padding: 16px 8px;
+}
+
+article #live-matches {
+	width: 650px;
+	height: 300px;
+}
+
+.matches-container {
+	width: 650px;
+	height: 300px;
+	position: relative;
+}
+
+.sk-spinner {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.live-match-slider {
+	margin-right: auto;
+	width: 610px;
+}
+
+.slick-prev {
+	left: 25px;
+	z-index: 999;
+}
+.slick-next {
+	right: 25px;
+	z-index: 999
+}
+.slick-next:before, .slick-prev:before {
+    color: #000;
+}
+
+.slick-slide .live-event-wrapper {
+	background: #222;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	display: block;
+	text-align: center;
+	padding: 20px 0;
+  }
+
+.live-score {
+	font-size: 20px;
+	color: #eccb1e;
+	margin-bottom: 20px
+}
+
+.live-teams {
+	margin-bottom: 10px
+}
+
+.teams-name {
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+}
+
+.icon  {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	margin-right: 5px;
+	top: 2px;
+  }
+
+ .event-date {
+	 margin-bottom: 20px;
+	 color: grey;
+ } 
+  .icon-default {
+	background: url(../images/icons/default.png) no-repeat;
+  }
+  .icon-tennis {
+	background: url(../images/icons/tennis.png) no-repeat;
+  }
+  .icon-football {
+	background: url(../images/icons/football.png) no-repeat;
+  }
+  .icon-basketball {
+	background: url(../images/icons/basketball.png) no-repeat;
+  }
+  .bet-button {
+	font-weight: bold;
+	width: 125px;
+	height: 14px;
+	background: #2e7423;
+	padding: 8px 16px; 
+	text-align: center;
+	color: white;
+	white-space: nowrap;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 4px;
+	text-decoration-line: none;
+	text-decoration:none;
+  }
+
+  .bet-button:hover {
+	background: #2f8e2c;
+  }
